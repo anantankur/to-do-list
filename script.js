@@ -34,7 +34,7 @@ function addOnMouse() {
 	}
 }
 
-//key hit listener
+//enter key press listener
 function addOnKey(event) {
 	if (inputLength() > 0 && event.keyCode === 13) {
 		var li = document.createElement("li");
@@ -65,10 +65,6 @@ function abcd() {
 	document.getElementsByTagName("li")[j].appendChild(del);
 		del.setAttribute("class", "bd");
 		j++;
-
-	// for (i=0; i<document.getElementsByTagName("li").length; i++) {
-		
-	// }
 }
 
 //delete li on DELETE button click
